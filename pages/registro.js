@@ -1,13 +1,3 @@
-import styled from 'styled-components'
+import Registro from '../components/registro'
 
-const Title = styled.h1`
-    color: red;
-`
-
-const Registro = () => {
-    return(
-        <Title>Registro</Title>
-    )
-}
-
-export default Registro
+export default () =>  <Registro />
